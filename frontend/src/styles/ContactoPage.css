@@ -1,0 +1,144 @@
+
+.form {
+    color: black;
+    padding: 2rem;
+  }
+  
+  .formul {
+      width: 30%;
+      margin: 10px;
+      color: black;
+  }
+  
+  /*Specific Styles - armá_tu_viaje.html*/
+  
+  .travel {
+    text-align: left;
+  }
+  
+  .tips {
+    display: flex;
+  }
+  
+  .images {
+    width: 30%;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  /*Specific Styles - viaja_con_nosotros.html*/
+  
+  
+  .images_vcn {
+      display: flex;
+      align-self: center;
+      justify-content: space-around;
+  }
+  
+  .imgcirc {
+    height: 27rem;
+    width: 33%;
+    margin: 10px;
+    align-content: center;
+    border-radius: 50%;
+    background-size: cover;
+  }
+   
+    #imgcirc1 {
+      background-image: url("https://www.thoughtco.com/thmb/bh1Nzwu9apslRx4FcxpIJi4HKrY=/2000x1446/filters:fill(auto,1)/GettyImages-158525984-5b6df57dc9e77c005086b0ca.jpg");
+      
+    }
+    
+    #imgcirc2 {
+      background-image: url("https://viajes.nationalgeographic.com.es/medio/2017/01/23/levin-iglut-finlandia_da191f4d.jpg");
+      
+    }
+    
+    #imgcirc3 {
+      background-image: url("https://i.ytimg.com/vi/9wqphCrytec/maxresdefault.jpg");
+      
+    }
+    
+  
+  nav {
+    list-style: none;
+    width: 100%;
+    border: none;
+    margin: none;
+    background-color:#000;
+  }
+  
+  .nav_list li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 0.5s ease;
+  }
+  
+  .nav_list li {
+    display: inline-flex;
+    text-align: center;
+    padding: 0px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .nav_list li a:hover {
+      background-color: rgb(27, 99, 5);
+      border-radius: 20px;
+  }
+  
+  .sub_header {
+    display: flex;
+    background-image: linear-gradient(30deg, black 50%, rgba(47, 245, 47, 0.986));
+    border: none;
+    padding: none;
+    margin: none;
+    height: 7rem;
+  }
+  
+  .image1 {
+    height: 100%;
+    padding: 0;
+  }
+  
+  .titnav {
+    margin: auto;
+    margin-left: 5rem;
+    position: relative;
+    width: 50%;
+  }
+  
+  .travelers_experiences {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+  }
+  
+  .travelers_card {
+    width: 30%;
+    height: 275px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    
+  }
+  
+  .submit-btn {
+      background-image: linear-gradient(30deg, black 50%, rgba(47, 245, 47, 0.986));
+      width: 200px;
+      color: #fff;
+      font-weight: 400;
+      font-size: 1.2rem;
+      border-radius: 25px;
+      
+     
+  }
+
+  .submit-btn:hover {
+    box-shadow: 2px 2px 20px rgba(47, 245, 47, 0.986);
+    color: rgba(47, 245, 47, 0.986);
+    
+  }

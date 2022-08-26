@@ -1,0 +1,21 @@
+ 
+  .sub_header {
+    display: flex;
+    background-image: linear-gradient(30deg, black 50%, rgba(47, 245, 47, 0.986));
+    border: none;
+    padding: none;
+    margin: none;
+    height: 7rem;
+  }
+  
+  .image1 {
+    height: 100%;
+    padding: 0;
+  }
+  
+  .titnav {
+    margin: auto;
+    margin-left: 5rem;
+    position: relative;
+    width: 50%;
+  }

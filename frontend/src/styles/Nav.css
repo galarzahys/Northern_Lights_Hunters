@@ -1,0 +1,27 @@
+nav {
+  list-style: none;
+  width: 100%;
+  border: none;
+  margin: none;
+  background-color:#000;
+}
+
+.nav_list li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+
+.nav_list li {
+  display: inline-flex;
+  text-align: center;
+  padding: 0px;
+  border: none;
+  border-radius: 20px;
+}
+
+.nav_list li a:hover {
+    background-color: rgb(27, 99, 5);
+    border-radius: 20px;
+}
